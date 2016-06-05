@@ -1,0 +1,39 @@
+$form-color:$form-default-color;
+$form-wid:$form-width;
+$form-color:$form-col;
+$form-color2:$form-col-2;
+$form-color3:$form-col-3;
+$form-radius:$form-radis;
+
+.form {
+	width:50%;
+	background-color: #fff;
+
+	&__vvod{
+		width:$form-wid;
+		border:1px solid gray;
+		@include pd;
+	&--lg{
+		border-color: $form-color;
+	}
+	
+	&--ld{
+		border-color: $form-color2;
+	}
+	&--lf{
+		border-color: $form-color3;
+	}
+	&--rad{
+		border-radius: $form-radius;
+	}
+}
+}
+// .form{
+// 	width:$form-wid;
+// 	&__vvod {
+// 		width:$form-wid;
+	
+		
+	
+// }
+// }

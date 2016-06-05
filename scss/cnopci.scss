@@ -1,0 +1,107 @@
+$btn-overall-width: $razmer-hirinu;/*общая ширина кнопки*/
+$btn-width: $small-hirinu;
+$btn-radius:$radius-r;
+$btn-small-width:$small-width;
+/*высота*/
+$btn-height:$height-btn;
+				/*цвета*/
+$btn-color: $primary-color;
+$btn-color2: $normal-color;
+$btn-color3: $succes-color;
+$btn-color4:   $info-color;
+$btn-color5:$warning-color;
+$btn-color6: $danger-color;
+$btn-color7:         $font;
+$btn-color8:$default-color;
+$btn-color9: $default-font;
+$btn-color10:$b-col;
+$btn-color11:$b-col2;
+$btn-color12:$b-col3;
+$btn-color13:$b-col4;
+$btn-color14:$b-col5;
+$btn-color15:$b-col6;
+$btn-color17:$b-col7;
+$btn-color18:$b-col8;
+.btn {
+	width:$razmer-hirinu;
+	cursor:pointer;
+	padding:5px;
+	border-radius: 4px;
+	border:none;
+	color:#fff;
+	&:active {
+		color:red;
+	}
+	&--def{
+		background:$btn-color;
+		border-color: $btn-color;
+		&:hover {
+			background-color:$btn-color10;
+		}
+	}
+	&--prim{
+		background-color: $btn-color2;
+		width:$btn-width;
+		&:hover {
+			background-color:$btn-color11;
+		}
+	}
+	&--work{
+		background-color: $btn-color3;
+		border-radius:$btn-radius;
+		&:hover {
+			background-color:$btn-color12;
+		}
+	}
+	&--wid{
+		width:$btn-small-width;
+		
+	}
+	&--hei{
+		height:$btn-height;
+		&:hover {
+			background-color:$btn-color14;
+		}
+	}
+	&--las{
+		background-color: $btn-color3;
+		&:hover {
+			
+		background-color:$btn-color14;
+		}
+	}
+	&--lg{
+		background-color: $btn-color4;
+		&:hover {
+			background-color:$btn-color13;
+		}
+	}
+	&--ds{
+		background-color: $btn-color5;
+		&:hover {
+			background-color: $btn-color15;
+		}
+	}
+	&--bat{
+		background-color: $btn-color6;
+		&:hover {
+			background-color: $btn-color17;
+		}
+	}
+	&--add{
+		background-color: $btn-color7;
+		&:hover {
+			background-color: $btn-color18;
+		}
+	}
+}
+.star{
+		@include st;
+	
+	&:before{ 
+		@include st-b;
+	}
+	&:after{ 
+		@include st-a;
+	}
+}

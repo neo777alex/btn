@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*для ховера*/
+/*цвет для форм */
+/*общая ширина кнопки*/
+/*высота*/
+/*цвета*/
+.btn {
+  width: 140px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+}
+
+.btn:active {
+  color: red;
+}
+
+.btn--def {
+  background: #cc3366;
+  border-color: #cc3366;
+}
+
+.btn--def:hover {
+  background-color: #ff6666;
+}
+
+.btn--prim {
+  background-color: #3399cc;
+  width: 100px;
+}
+
+.btn--prim:hover {
+  background-color: #66ccff;
+}
+
+.btn--work {
+  background-color: #33cc99;
+  border-radius: 100%;
+}
+
+.btn--work:hover {
+  background-color: #99cc66;
+}
+
+.btn--wid {
+  width: 33px;
+}
+
+.btn--hei {
+  height: 33px;
+}
+
+.btn--hei:hover {
+  background-color: #99ffcc;
+}
+
+.btn--las {
+  background-color: #33cc99;
+}
+
+.btn--las:hover {
+  background-color: #99ffcc;
+}
+
+.btn--lg {
+  background-color: #cc6699;
+}
+
+.btn--lg:hover {
+  background-color: #ff99cc;
+}
+
+.btn--ds {
+  background-color: #99cc66;
+}
+
+.btn--ds:hover {
+  background-color: #003300;
+}
+
+.btn--bat {
+  background-color: #ffcc33;
+}
+
+.btn--bat:hover {
+  background-color: #999900;
+}
+
+.btn--add {
+  background-color: #9999cc;
+}
+
+.btn--add:hover {
+  background-color: #000033;
+}
+
+
+
+.form {
+  width: 50%;
+  background-color: #fff;
+}
+
+.form__vvod {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 10px 15px 10px 15px;
+}
+
+.form__vvod--lg {
+  border-color: red;
+}
+
+.form__vvod--ld {
+  border-color: green;
+}
+
+.form__vvod--lf {
+  border-color: yellow;
+}
+
+.form__vvod--rad {
+  border-radius: 15px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=all.css.map */
